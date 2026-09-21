@@ -10,9 +10,29 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+try:
 
-Add code here
+    # Taking 3 elements input from the user
+    
+    L = []
+    
+    for i in range(3):
+    
+        item = ['laptop','mobile','pen']
+        
+        L.append(item)
+
+    # Trying to access index 4
+    
+    print(L[4])
+
+except IndexError:
+
+    print("check index range")
 
 ## Output
+<img width="957" height="246" alt="image" src="https://github.com/user-attachments/assets/dae5bd73-f599-4661-b67b-a879780ccab7" />
 
 ## Result
+Thus the program executed successfully.
+
