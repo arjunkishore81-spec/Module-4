@@ -10,28 +10,22 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
-try:
+dict1={'Ten': 10,'Twenty': 20,'Thirty': 30} 
 
-    # Taking 3 elements input from the user
-    
-    L = []
-    
-    for i in range(3):
-    
-        item = ['laptop','mobile','pen']
-        
-        L.append(item)
+dict2={'Thirty': 30,'Fourty': 40,'Fifty': 50} def 
 
-    # Trying to access index 4
-    
-    print(L[4])
+merge (dict1,dict2): 
 
-except IndexError:
+res={**dict1 , **dict2} return 
 
-    print("check index range")
+res 
 
+dict3=merge(dict1,dict2) 
+
+print(dict3)
 ## Output
-<img width="957" height="246" alt="image" src="https://github.com/user-attachments/assets/dae5bd73-f599-4661-b67b-a879780ccab7" />
+
+<img width="805" height="165" alt="image" src="https://github.com/user-attachments/assets/668ad4cd-7c54-493e-9184-e45c91ed81b2" />
 
 ## Result
 Thus the program executed successfully.
